@@ -1,0 +1,9 @@
+.meals{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.meal-container{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    gap:2rem;
+}

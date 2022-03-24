@@ -1,0 +1,29 @@
+.meal{
+   width: 300px;
+   height: 510px;
+   overflow: hidden;
+   border: 1px solid bisque;
+   border-radius: 8px;
+   padding: 10px;
+   position: relative;
+
+}
+.meal-img img{
+    height: 280px;
+    width: 280px;
+}
+.meal-info{
+    margin: 0 5px;
+}
+.meal-infop{
+    margin-top: 5px;
+    margin-bottom: 0;
+    
+}
+.btn{
+    width: 100%;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+}
