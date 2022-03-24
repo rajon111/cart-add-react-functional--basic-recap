@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import Details from '../Details/Details';
+
+
 import Meal from '../Meal/Meal';
 import './Meals.css'
 
@@ -28,11 +31,10 @@ const Meals = () => {
 
             <div className="cart-container">
                 <h2>Cart container:{cart.length}</h2>
-
-                    {
-                        cart.map(item=> <div><h3>Item:{item.strMeal}</h3> <p>Subcategory:{item.strCategory}</p>
-                        </div> )
-                    }
+                {
+                    cart.map(item => <Details item={item}></Details>)
+                }
+                    
             </div>
         </div>
     );

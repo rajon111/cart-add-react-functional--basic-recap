@@ -17,7 +17,7 @@ const Meal = ({meal,handleClick}) => {
             <p>Category:{strCategory}</p>
             <p>Area:a{strArea}</p>
            </div>
-            <button className='btn' onClick={()=>handleClick(meal)}>ADD TO CART</button>
+            <button className='btnn' onClick={()=>handleClick(meal)}>ADD TO CART</button>
         </div>
     );
 };
